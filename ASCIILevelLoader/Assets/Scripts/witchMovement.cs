@@ -28,7 +28,7 @@ public class witchMovement : MonoBehaviour
             r2b.rotation = angle;
             localScale = direction;
         }
-        else
+        else //checks if player has been "deleted"
         {
             player = GameObject.FindWithTag("Player").transform;
         }
