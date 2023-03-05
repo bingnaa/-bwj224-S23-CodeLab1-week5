@@ -1,5 +1,5 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# ASCII Key Generation 
 
-DO NOT LEAVE IT LIKE THIS!!!
+Created levels with ASCII Keys: added witch that follows. Supposed to collide and cause a game over. Player is also moving on a grid based movement.
 
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+Need to fix: Player collisions. Grid movement is messing with the box collider.
