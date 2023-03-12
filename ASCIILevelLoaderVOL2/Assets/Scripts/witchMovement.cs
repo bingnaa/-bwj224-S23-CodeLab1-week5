@@ -1,0 +1,41 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Assertions.Must;
+
+public class witchMovement : MonoBehaviour
+{
+    private Transform player; //the enemy's target
+    public float moveSpeed; //move speed
+    private Vector2 localScale;
+    private Rigidbody2D r2b;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        player = GameObject.FindWithTag("Player").transform;
+        r2b = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (player)
+        {
+            Vector2 direction = (player.position - transform.position).normalized;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            r2b.rotation = angle;
+            localScale = direction;
+        }
+        else
+        {
+            player = GameObject.FindWithTag("Player").transform;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        r2b.velocity = new Vector2(localScale.x, localScale.y) * moveSpeed;
+    }
+}
