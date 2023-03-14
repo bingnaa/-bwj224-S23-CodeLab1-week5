@@ -10,6 +10,9 @@ VOl2
 
 Tried to fix collisions with Scriptable Tiles (still not working).
 
-VOL2
+VOL3
 
 Fixed player movement, got rid of grid-based movement to fix collisions. Now player moves in 4 directions only. Added some shaders/collision actions for witch collisions. Will add more for specific game object collisions i.e. trees, the player.
+
+VOL4
+Added more shaders and a starting screen. Also scene transitions. Need to now build more levels and add jumpscares + butter point system.
