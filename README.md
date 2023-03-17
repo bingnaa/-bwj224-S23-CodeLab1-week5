@@ -20,4 +20,8 @@ Added more shaders and a starting screen. Also scene transitions. Need to now bu
 
 VOL 5
 
-Fixed background changes, added jumpscare transition mechanic into generator.
+Added background changes, added jumpscare transition mechanic into generator.
+
+VOL 6
+
+Fixed buggy background changes and level transition issues.
