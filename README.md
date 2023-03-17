@@ -26,6 +26,6 @@ VOL 6
 
 Fixed buggy background changes and level transition issues.
 
--WIZARD BOY
+-WIZARD BOY!
 
 Added 3D models/levels + finished scene transitions. Need to do: finalize scoring, endings.
