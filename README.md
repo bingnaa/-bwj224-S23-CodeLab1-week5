@@ -17,3 +17,7 @@ Fixed player movement, got rid of grid-based movement to fix collisions. Now pla
 VOL4
 
 Added more shaders and a starting screen. Also scene transitions. Need to now build more levels and add jumpscares + butter point system.
+
+VOL 5
+
+Fixed background changes, added jumpscare transition mechanic into generator.
